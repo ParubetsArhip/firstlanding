@@ -1,0 +1,61 @@
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    color: green;
+}
+
+section {
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+}
+
+.block_1, .block_2, .block_3 {
+    width: 450px;
+    height: 330px;
+    border: 1px solid black;
+    padding: 10px;
+    position: relative;
+}
+
+.quotes{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 15%);
+}
+
+.quotes, img{
+    width: 90px;
+}
+
+.block_1_text_1{
+    position: absolute;
+    top: 100px;
+    padding: 0 40px;
+    text-align: center;
+}
+
+.block_1_text_2{
+    position: absolute;
+    top: 180px;
+    transform-origin: bottom;
+    padding: 0 40px;
+    text-align: center;
+}
+
+.circle{
+    position: absolute;
+    left: 50%;
+    top: 287px;
+    transform: translate(-50%, 15%);
+}
+
+.circle, img{
+    border-radius: 50%;
+}
+
+.last_text{
+    padding: 0 0 0 15px;
+}
